@@ -20,9 +20,9 @@ The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockcha
 
     ├── deployment/
 
-        ├── deploy_script.js
+        ├── deploy_with_ethers.js
 
-        └── hardhat.config.js
+        └── ethers-lib.js
 
     └── documentation/
 
@@ -30,12 +30,12 @@ The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockcha
 
 
 ### Deployment Instructions
-+ Environment Setup: Ensure Node.js and npm are installed. Set up the Hardhat project with npm init and npm install --save-dev hardhat.
-+ Compile the Contract: Run npx hardhat compile to compile Pepe42Token.sol.
-+ Deploy to Test Network: Use the provided script deploy_script.js with npx hardhat run scripts/deploy_script.js --network goerli.
-+ Verify on Etherscan: After deployment, verify the contract on Etherscan for the Goerli testnet by following Etherscan's verification process.
-+ Interacting with the Token : Interact with $PEPE42 using Hardhat console or scripts. For example, to transfer tokens, use ethers.js to invoke the transfer method on the deployed contract.
-
++ Environment Setup: Import the files on Remix IDE (https://remix.ethereum.org) and select the token contract.
++ Compile the Contract: Compile Pepe42Token.sol on Solidity Compiler section.
++ Deploy to Test Network: Choose the account and environment in which you want to deploy the contract on 'Deploy and Run transactions' section, put your wallet address in the right side of the Deploy button and click on deploy.
++ Verify on Etherscan: After deployment, verify the contract on Etherscan for the testnet network choosen by following Etherscan's verification process.
++ Interacting with the Token : Interact with $PEPE42 using Remix Deployed Contracts section.
+  
 ### Security Features
 + Ownership: Only the contract owner can mint or burn tokens, preventing unauthorized token creation or destruction.
 + ERC-20 Compliance: Adheres to the ERC-20 standard, ensuring compatibility with a wide range of wallets and exchanges.
