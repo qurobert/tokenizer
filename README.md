@@ -10,7 +10,7 @@ The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockcha
 + Testing and Interaction: Ethers.js, Hardhat scripts
 
 ### File Structure
-    pepe42-token/
+    Pepe42Token/
 
     ├── README.md
 
@@ -33,7 +33,7 @@ The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockcha
 + Environment Setup: Ensure Node.js and npm are installed. Set up the Hardhat project with npm init and npm install --save-dev hardhat.
 + Compile the Contract: Run npx hardhat compile to compile Pepe42Token.sol.
 + Deploy to Test Network: Use the provided script deploy_script.js with npx hardhat run scripts/deploy_script.js --network goerli.
-+ Verify on Etherscan: After deployment, verify the contract on Etherscan for the Rinkeby testnet by following Etherscan's verification process.
++ Verify on Etherscan: After deployment, verify the contract on Etherscan for the Goerli testnet by following Etherscan's verification process.
 + Interacting with the Token : Interact with $PEPE42 using Hardhat console or scripts. For example, to transfer tokens, use ethers.js to invoke the transfer method on the deployed contract.
 
 ### Security Features
