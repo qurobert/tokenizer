@@ -16,7 +16,7 @@ The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockcha
 
     ├── code/
 
-        └── pepe42contract.sol
+        └── Pepe42Token.sol
 
     ├── deployment/
 
