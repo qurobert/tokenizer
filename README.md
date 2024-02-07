@@ -1,7 +1,9 @@
 # PEPE42 Token
 
 ### Project Overview
-The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockchain. It represents a fungible digital asset that can be used in various decentralized applications. The token's name, containing 'pepe', symbolizes a playful nod to popular internet culture.
+The $PEPE42 token is an ERC-20 compliant token deployed on the Ethereum blockchain. It represents a fungible digital asset that can be used in various decentralized applications. The token's name, containing 'pepe', symbolizes a playful nod to popular internet culture. 
+Contract address: 0x23E685B32a4ee3ACFc1c9c84B8B7Ae1003d57271
+Network: Goerli Ethereum Testnet
 
 ### Technology Stack
 + Blockchain Platform: Ethereum
