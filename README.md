@@ -5,7 +5,10 @@ The PEPE42 token is a playful yet meaningful addition to the Ethereum blockchain
 
 ## Design Decisions
 
-### Choice of ERC-20 Standard
+### Choice of Blockchain
+We choose Ethereum as blockchain for our token for its known stability and its mass adoption in crypto ecosystem leading to large utility panel for our token.
+
+### Choice of Token
 We chose the ERC-20 standard for its widespread adoption and compatibility with the Ethereum ecosystem. This standard ensures our token can easily integrate with wallets, exchanges, and other smart contracts.
 
 ### Symbolism in Naming
